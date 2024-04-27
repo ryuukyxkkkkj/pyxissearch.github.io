@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Fundo Preto com Conteúdo Centralizado no Topo</title>
+<title>xxxxxxxx</title>
 <style>
     body {
         background-color: black;
