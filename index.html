@@ -1,65 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>pwned by ryuukyx</title>
+    <title>OWNED BY SLAYER</title>
     <style>
+        /* Reset básico */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
         body {
+            background-color: black; /* Fundo preto */
+            color: white; /* Cor do texto padrão */
+            font-family: 'Arial', sans-serif; /* Fonte padrão */
+            text-align: center; /* Alinha tudo ao centro */
+            margin: 0;
+            padding: 0;
+            height: 100vh; /* Altura da página inteira */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
             display: flex;
             flex-direction: column;
-            justify-content: flex-start;
             align-items: center;
-            height: 100vh;
-            margin: 0;
-            background-color: white;
-            padding-top: 20px; /* Adds spacing from the top */
         }
-        img {
-            max-width: 50%;
-            max-height: 50%;
+
+        .central-image {
+            width: 350px; /* Ajuste conforme necessário */
+            height: auto;
+            margin-bottom: 20px; /* Espaço entre imagem e texto */
+            border-radius: 10px; /* Borda levemente arredondada */
         }
-        p {
-            margin-top: 10px;
-            color: black;
+
+        h1 {
+            font-size: 3rem; /* Tamanho grande */
             font-weight: bold;
-            font-family: Arial, sans-serif;
-            font-size: 2rem; /* Increase font size to make it like a title */
+            margin-bottom: 10px;
+        }
+
+        h1 .highlight {
+            color: red; /* Texto SLAYER em vermelho */
+        }
+
+        p {
+            font-size: 1.5rem; /* Tamanho do texto secundário */
+            color: white;
+        }
+
+        p .secondary-highlight {
+            color: red; /* Texto secundário em vermelho */
         }
     </style>
-    <script>
-        const imageUrls = [
-            "https://i.pinimg.com/736x/25/37/92/253792ebd7cc96b3da6703bff9c61c05.jpg",
-            "https://i.pinimg.com/736x/eb/8c/6f/eb8c6ff2459ad7120b03d8ab4ca6008b.jpg",
-            "https://i.pinimg.com/736x/55/e3/38/55e33813b753a46ebba2971b32779726.jpg",
-            "https://i.pinimg.com/736x/02/bd/f0/02bdf03cf5f4d5de419dd8111f15bcfe.jpg",
-            "https://i.pinimg.com/736x/38/5f/3e/385f3e5310432c9f662501c3c849aab6.jpg",
-            "https://i.pinimg.com/originals/8c/72/f8/8c72f8cb54e29ee39fdd5e61adebcb67.gif",
-            "https://i.pinimg.com/736x/8b/00/47/8b0047eb7ab56e936be5d886b2dfe38f.jpg",
-            "https://i.pinimg.com/736x/b9/b9/61/b9b9611c8094df648879a15c2df35760.jpg",
-            "https://i.pinimg.com/736x/df/f6/47/dff6470531051d17f74139fdfc87c8f3.jpg",
-            "https://i.pinimg.com/736x/b4/1e/78/b41e788246043a06691a12a7f4ca893c.jpg",
-            "https://i.pinimg.com/736x/3f/7a/0f/3f7a0f8b76757d436b5447cb562a2d4f.jpg"
-        ];
-
-        function getRandomImage() {
-            const randomIndex = Math.floor(Math.random() * imageUrls.length);
-            return imageUrls[randomIndex];
-        }
-
-        window.onload = () => {
-            const imagesContainer = document.querySelector('body');
-            const img = document.createElement('img');
-            img.src = getRandomImage();
-            img.alt = "Random Image";
-            imagesContainer.appendChild(img);
-
-            const text = document.createElement('p');
-            text.textContent = "Chora não abusado";
-            imagesContainer.appendChild(text);
-        };
-    </script>
 </head>
 <body>
+    <div class="container">
+        <!-- Substitua a imagem no caminho 'sua-imagem-aqui.png' -->
+        <img src="https://i.pinimg.com/736x/7b/bf/6a/7bbf6a1730cb0869b6689518e60ee9af.jpg" alt="Foto central" class="central-image">
+        
+        <!-- Título principal -->
+        <h1>OWNED BY <span class="highlight">SLAYER</span></h1>
+        
+        <!-- Texto secundário -->
+        <p>Não deixo migalhas, <span class="secondary-highlight">que se foda os federais</span></p>
+    </div>
 </body>
 </html>
